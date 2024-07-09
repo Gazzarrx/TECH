@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/homeStyles.css">
+    <link rel="stylesheet" href="../CSS/fontawesome/css/font-awesome.min.css">
+    <title>Home(Logout)</title>
+</head>
+
+<body>
+    <!-- Start Navigation -->
+    <div class="Landing-page" id="Landing-page">
+        <div class="overlay"></div>
+        <header>
+        <div class="container">
+            <p class="logo">TECH</p>
+            <nav class="nav-container">
+                <ul>
+                    <li><a class="active" href="./homePageLogout.html">Home</a></li>
+                    <li><a class="profile" href="./profile.html">Profile</a></li>
+                    <li><a class="favorites" href="./favorites.html">Favorites</a></li>
+                </ul>
+                <ul class="cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <a class="cart" href="cart.html">Cart</a>
+                </ul>
+                <ul class="log-out">
+                    <a class="logout" href="./homePageLogin.html">Logout</a>
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <div class="introduction-text">
+            <div class="search-filter-container">
+                <form action="./homePageLogin.html" method="get" class="search-bar" id="searchBar">
+                    <h1>Welcome to, <span>Tech</span></h1>
+                    <div class="input-button" id="inputButton">
+                        <input type="text" placeholder="Search anything for your smart home" name="q" id="searchInput"
+                            onkeyup="myFunction()">
+                        <a href="" id="searchButton">
+                            <button type="submit"><img src="../images/search-interface-symbol.png" alt=""></button>
+                        </a>
+                    </div>
+                    <ul id="myUL">
+                        <li><a id="aLink" href="./Mobiles.html">Mobiles</a></li>
+                        <li><a id="aLink" href="./pcMonitors.html">PC Monitors</a></li>
+                        <li><a id="aLink" href="./headPhones.html">Head Phones</a></li>
+                        <li><a id="aLink" href="./securityCameras.html">Security Cameras</a></li>
+                        <li><a id="aLink" href="./detectorsAndSensors.html">Detectors & sensors</a></li>
+                        <li class="lap"><a id="aLink" href="./gamingLaptops.html">Gaming Laptops</a></li>
+                    </ul>
+                    <ul class="filter-buttons" id="buttons">
+                        <li class="active">All</li>
+                        <li>Mobiles</li>
+                        <li>Gaming Laptops</li>
+                        <li>Sensors & Detectors</li>
+                        <li>PC Monitors</li>
+                        <li>Security Cameras</li>
+                        <li>Head Phones</li>
+                    </ul>
+                    <!-- <p>Welcome to our online tech haven,
+                        Where innovation and information are always craven.
+                        Join us on this journey of exploration,
+                        As we navigate the world of technology with determination.
+                    </p> -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Navigation -->
+    <!-- Start Categories -->
+    <div class="categories-container">
+        <div class="Headerpara">
+            <p>Categories</p>
+        </div>
+        <div class="cards-parent">
+            <div class="card-container-mob">
+                <a href="#mobiles">
+                    <div class="card">
+                        <div class="card-para">Mobile Phones</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-container-lap">
+                <a href="#lap">
+                    <div class="card">
+                        <div class="card-para">Gaming Laptops</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-container-pc">
+                <a href="#pc monitors">
+                    <div class="card">
+                        <div class="card-para">PC Monitors</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-container-sensors">
+                <a href="#sensors">
+                    <div class="card">
+                        <div class="card-para">Sensors & Detectors</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-container-head">
+                <a href="#head">
+                    <div class="card">
+                        <div class="card-para">Head Phones</div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-container-sec">
+                <a href="#sec">
+                    <div class="card">
+                        <div class="card-para">Security Cameras</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Categories -->
+    <!-- Start Products -->
+    <div class="tech-section" id="tech">
+        <!-- Start Mobiles -->
+        <container class="card-item" id="mobiles" data-filter="Mobiles">
+            <div class="Headerpara">
+                <p>Mobiles</p>
+            </div>
+            <div class="mobiles cards-parent-tech">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Mobiles/iphone 13.jpeg" alt="">
+                        <p>Iphone 13</p>
+                        <span>iPhone 13, 128GB, Pink - Unlocked (Renewed Premium).</span>
+                        <div class="favorites-container">
+                            <div class="price">668<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Iphone 13">
+                                <input type="hidden" name="Image", value="../images/Mobiles/iphone 13.jpeg">
+                                <input type="hidden" name="Description", value="iPhone 13, 128GB, Pink - Unlocked (Renewed Premium).">
+                                <input type="hidden" name="Price", value="668$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Iphone 13">
+                                <input type="hidden" name="Image", value="../images/Mobiles/iphone 13.jpeg">
+                                <input type="hidden" name="Description", value="iPhone 13, 128GB, Pink - Unlocked (Renewed Premium).">
+                                <input type="hidden" name="Price", value="668$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Mobiles/iphone 13 pro.jpeg" alt="">
+                        <p>Iphone 13 pro</p>
+                        <span>iPhone 13 Pro, 128GB, Sierra Blue - Unlocked (Renewed Premium).</span>
+                        <div class="favorites-container">
+                            <div class="price">840<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Iphone 13 pro">
+                                <input type="hidden" name="Image", value="../images/Mobiles/iphone 13 pro.jpeg">
+                                <input type="hidden" name="Description", value="iPhone 13 Pro, 128GB, Sierra Blue - Unlocked (Renewed Premium).">
+                                <input type="hidden" name="Price", value="840$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Iphone 13 pro">
+                                <input type="hidden" name="Image", value="../images/Mobiles/iphone 13 pro.jpeg">
+                                <input type="hidden" name="Description", value="iPhone 13 Pro, 128GB, Sierra Blue - Unlocked (Renewed Premium).">
+                                <input type="hidden" name="Price", value="840$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Mobiles/iphone 13 pro max.png" alt="">
+                        <p>Iphone 13 pro max</p>
+                        <span>iPhone 13 Pro Max, 128GB, Silver - Unlocked (Renewed Premium).</span>
+                        <div class="favorites-container">
+                            <div class="price">940<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Iphone 13 pro max">
+                                <input type="hidden" name="Image", value="../images/Mobiles/iphone 13 pro max.png">
+                                <input type="hidden" name="Description", value="iPhone 13 Pro Max, 128GB, Silver - Unlocked (Renewed Premium).">
+                                <input type="hidden" name="Price", value="940$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Iphone 13 pro max">
+                                <input type="hidden" name="Image", value="../images/Mobiles/iphone 13 pro max.png">
+                                <input type="hidden" name="Description", value="iPhone 13 Pro Max, 128GB, Silver - Unlocked (Renewed Premium).">
+                                <input type="hidden" name="Price", value="940$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Mobiles/Mi 11 Lite.jpg" alt="">
+                        <p>Mi 11 Lite</p>
+                        <span>8GB RAM+128GB | Titan Black | US Factory Unlocked Android Smartphone | 5000 mAh Battery |
+                            80W
+                            Fast Charging.</span>
+                        <div class="favorites-container">
+                            <div class="price">700<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Mi 11 Lite">
+                                <input type="hidden" name="Image", value="../images/Mobiles/Mi 11 Lite.jpg">
+                                <input type="hidden" name="Description", value="8GB RAM+128GB | Titan Black | US Factory Unlocked Android Smartphone | 5000 mAh Battery |
+                            80W
+                            Fast Charging.">
+                                <input type="hidden" name="Price", value="700$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Mi 11 Lite">
+                                <input type="hidden" name="Image", value="../images/Mobiles/Mi 11 Lite.jpg">
+                                <input type="hidden" name="Description", value="8GB RAM+128GB | Titan Black | US Factory Unlocked Android Smartphone | 5000 mAh Battery |
+                            80W
+                            Fast Charging.">
+                                <input type="hidden" name="Price", value="700$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Mobiles/Xiaomi Redmi Note 10 Pro.jpg" alt="">
+                        <p>Xiaomi Redmi Note 10 Pro</p>
+                        <span>(128GB, 6GB) 6.67in, Snapdragon 732G, 5020mAh Battery, Dual SIM GSM Unlocked Global 4G
+                            LTE</span>
+                        <div class="favorites-container">
+                            <div class="price">250<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Xiaomi Redmi Note 10 Pro">
+                                <input type="hidden" name="Image", value="../images/Mobiles/Xiaomi Redmi Note 10 Pro.jpg">
+                                <input type="hidden" name="Description", value="(128GB, 6GB) 6.67in, Snapdragon 732G, 5020mAh Battery, Dual SIM GSM Unlocked Global 4G
+                            LTE">
+                                <input type="hidden" name="Price", value="250$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Xiaomi Redmi Note 10 Pro">
+                                <input type="hidden" name="Image", value="../images/Mobiles/Xiaomi Redmi Note 10 Pro.jpg">
+                                <input type="hidden" name="Description", value="(128GB, 6GB) 6.67in, Snapdragon 732G, 5020mAh Battery, Dual SIM GSM Unlocked Global 4G
+                            LTE">
+                                <input type="hidden" name="Price", value="250$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Mobiles/OnePlus 11 5G.jpg" alt="">
+                        <p>OnePlus 11 5G</p>
+                        <span>8GB RAM+128GB | Titan Black | US Factory Unlocked Android Smartphone | 5000 mAh Battery |
+                            80W
+                            Fast Charging</span>
+                        <div class="favorites-container">
+                            <div class="price">200<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="OnePlus 11 5G">
+                                <input type="hidden" name="Image", value="../images/Mobiles/OnePlus 11 5G.jpg">
+                                <input type="hidden" name="Description", value="8GB RAM+128GB | Titan Black | US Factory Unlocked Android Smartphone | 5000 mAh Battery |
+                            80W
+                            Fast Charging">
+                                <input type="hidden" name="Price", value="200$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="OnePlus 11 5G">
+                                <input type="hidden" name="Image", value="../images/Mobiles/OnePlus 11 5G.jpg">
+                                <input type="hidden" name="Description", value="8GB RAM+128GB | Titan Black | US Factory Unlocked Android Smartphone | 5000 mAh Battery |
+                            80W
+                            Fast Charging">
+                                <input type="hidden" name="Price", value="200$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Mobiles/Xiaomi Mi 11 Lite 5G.jpg" alt="">
+                        <p>Xiaomi Mi 11 Lite 5G</p>
+                        <span>+ 4G LTE Volte Global Unlocked GSM 64MP Triple Camera Worldwide GSM</span>
+                        <div class="favorites-container">
+                            <div class="price">739<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Xiaomi Mi 11 Lite 5G">
+                                <input type="hidden" name="Image", value="../images/Mobiles/Xiaomi Mi 11 Lite 5G.jpg">
+                                <input type="hidden" name="Description", value="+ 4G LTE Volte Global Unlocked GSM 64MP Triple Camera Worldwide GSM">
+                                <input type="hidden" name="Price", value="739$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Xiaomi Mi 11 Lite 5G">
+                                <input type="hidden" name="Image", value="../images/Mobiles/Xiaomi Mi 11 Lite 5G.jpg">
+                                <input type="hidden" name="Description", value="+ 4G LTE Volte Global Unlocked GSM 64MP Triple Camera Worldwide GSM">
+                                <input type="hidden" name="Price", value="739$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Mobiles/Xiaomi Mi 11 Lite NE 5G.jpg" alt="">
+                        <p>Xiaomi Mi 11 Lite NE 5G</p>
+                        <span>+ 4G LTE (128GB, 8GB) 6.55” (Only Tmoible/Mint USA Market) Unlocked Global, 64MP Triple
+                            Camera, Dual SIM</span>
+                        <div class="favorites-container">    
+                            <div class="price">230<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Xiaomi Mi 11 Lite NE 5G">
+                                <input type="hidden" name="Image", value="../images/Mobiles/Xiaomi Mi 11 Lite NE 5G.jpg">
+                                <input type="hidden" name="Description", value="+ 4G LTE (128GB, 8GB) 6.55” (Only Tmoible/Mint USA Market) Unlocked Global, 64MP Triple
+                            Camera, Dual SIM">
+                                <input type="hidden" name="Price", value="230$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Xiaomi Mi 11 Lite NE 5G">
+                                <input type="hidden" name="Image", value="../images/Mobiles/Xiaomi Mi 11 Lite NE 5G.jpg">
+                                <input type="hidden" name="Description", value="+ 4G LTE (128GB, 8GB) 6.55” (Only Tmoible/Mint USA Market) Unlocked Global, 64MP Triple
+                            Camera, Dual SIM">
+                                <input type="hidden" name="Price", value="230$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </container>
+        <!-- End Mobiles -->
+        <!-- Start Gaming Laptops -->
+        <container class="card-item" id="lap" data-filter="Gaming Laptops">
+            <div class="Headerpara">
+                <p>Gaming Laptops</p>
+            </div>
+            <div class="laptops cards-parent-tech">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Gaming-Laptops/Asus Rog.jpg" alt="">
+                        <p>ASUS ROG Strix G15</p>
+                        <span>Gaming Laptop, 15.6" 300Hz IPS FHD Display, NVIDIA GeForce RTX 3050, AMD Ryzen 7 6800H,
+                            16GB
+                            DDR5 1T SSD</span>
+                        <div class="favorites-container">
+                            <div class="price">1,099<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="ASUS ROG Strix G15">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/Asus Rog.jpg">
+                                <input type="hidden" name="Description", value="Gaming Laptop, 15.6 300Hz IPS FHD Display, NVIDIA GeForce RTX 3050, AMD Ryzen 7 6800H,
+                            16GB
+                            DDR5 1T SSD">
+                                <input type="hidden" name="Price", value="1,099$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="ASUS ROG Strix G15">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/Asus Rog.jpg">
+                                <input type="hidden" name="Description", value="Gaming Laptop, 15.6 300Hz IPS FHD Display, NVIDIA GeForce RTX 3050, AMD Ryzen 7 6800H,
+                            16GB
+                            DDR5 1T SSD">
+                                <input type="hidden" name="Price", value="1,099$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Gaming-Laptops/Acer Nitro 5 .jpg" alt="">
+                        <p>Acer Nitro 5</p>
+                        <span>AN515-57-79TD Gaming Laptop | Intel Core i7-11800H | NVIDIA GeForce RTX 3050 Ti Laptop GPU
+                            |
+                            15.6" FHD 144Hz IPS.</span>
+                        <div class="favorites-container">
+                            <div class="price">739<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Acer Nitro 5">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/Acer Nitro 5 .jpg">
+                                <input type="hidden" name="Description", value="AN515-57-79TD Gaming Laptop | Intel Core i7-11800H | NVIDIA GeForce RTX 3050 Ti Laptop GPU
+                            |
+                            15.6" FHD 144Hz IPS.">
+                                <input type="hidden" name="Price", value="739$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Acer Nitro 5">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/Acer Nitro 5 .jpg">
+                                <input type="hidden" name="Description", value="AN515-57-79TD Gaming Laptop | Intel Core i7-11800H | NVIDIA GeForce RTX 3050 Ti Laptop GPU
+                            |
+                            15.6" FHD 144Hz IPS.">
+                                <input type="hidden" name="Price", value="739$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Gaming-Laptops/Lenovo Gaming 3.jpg" alt="">
+                        <p>Lenovo Gaming 3 Ideapad</p>
+                        <span>15.6" Gaming Notebook - Full HD - 1920 x 1080 - Intel Core i5 10th Gen i5-10300H Quad/ 4
+                            Core
+                            2.50 GHz - 8 GB RAM.</span>
+                        <div class="favorites-container">
+                            <div class="price">1,000<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Lenovo Gaming 3 Ideapad">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/Lenovo Gaming 3.jpg">
+                                <input type="hidden" name="Description", value="15.6 Gaming Notebook - Full HD - 1920 x 1080 - Intel Core i5 10th Gen i5-10300H Quad/ 4
+                            Core
+                            2.50 GHz - 8 GB RAM.">
+                                <input type="hidden" name="Price", value="1,000$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Lenovo Gaming 3 Ideapad">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/Lenovo Gaming 3.jpg">
+                                <input type="hidden" name="Description", value="15.6 Gaming Notebook - Full HD - 1920 x 1080 - Intel Core i5 10th Gen i5-10300H Quad/ 4
+                            Core
+                            2.50 GHz - 8 GB RAM.">
+                                <input type="hidden" name="Price", value="1,000$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Gaming-Laptops/Asus TUF.jpg" alt="">
+                        <p>ASUS TUF Dash 15</p>
+                        <span>15.6" 144Hz FHD Display, Intel Core i7-12650H, GeForce RTX 3060, 16GB DDR5, 512GB SSD,
+                            Thunderbolt 4, Windows 11 Home.</span>
+                        <div class="favorites-container">
+                            <div class="price">1,149<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="ASUS TUF Dash 15">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/Asus TUF.jpg">
+                                <input type="hidden" name="Description", value="15.6 144Hz FHD Display, Intel Core i7-12650H, GeForce RTX 3060, 16GB DDR5, 512GB SSD,
+                            Thunderbolt 4, Windows 11 Home.">
+                                <input type="hidden" name="Price", value="1,149$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="ASUS TUF Dash 15">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/Asus TUF.jpg">
+                                <input type="hidden" name="Description", value="15.6 144Hz FHD Display, Intel Core i7-12650H, GeForce RTX 3060, 16GB DDR5, 512GB SSD,
+                            Thunderbolt 4, Windows 11 Home.">
+                                <input type="hidden" name="Price", value="1,149$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Gaming-Laptops/ASUS ROG Strix Scar 15.jpg" alt="">
+                        <p>ASUS ROG Strix Scar 15</p>
+                        <span>300Hz IPS Type FHD Display, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX, 16GB DDR4, 1TB
+                            SSD</span>
+                        <div class="favorites-container">
+                            <div class="price">1,499<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="ASUS ROG Strix Scar 15">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/ASUS ROG Strix Scar 15.jpg">
+                                <input type="hidden" name="Description", value="300Hz IPS Type FHD Display, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX, 16GB DDR4, 1TB
+                            SSD">
+                                <input type="hidden" name="Price", value="1,499$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="ASUS ROG Strix Scar 15">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/ASUS ROG Strix Scar 15.jpg">
+                                <input type="hidden" name="Description", value="300Hz IPS Type FHD Display, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX, 16GB DDR4, 1TB
+                            SSD">
+                                <input type="hidden" name="Price", value="1,499$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Gaming-Laptops/HP Victus Gaming Laptop.jpg" alt="">
+                        <p>HP Victus Gaming Laptop</p>
+                        <span>AMD Ryzen 7 5800H Processor, GeForce RTX 3050 Ti, 15.6" FHD 144Hz IPS Display, Webcam,
+                            WiFi 6,
+                            HDMI</span>
+                        <div class="favorites-container">
+                            <div class="price">1,049<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="HP Victus Gaming Laptop">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/HP Victus Gaming Laptop.jpg">
+                                <input type="hidden" name="Description", value="AMD Ryzen 7 5800H Processor, GeForce RTX 3050 Ti, 15.6 FHD 144Hz IPS Display, Webcam,
+                            WiFi 6,
+                            HDMI">
+                                <input type="hidden" name="Price", value="1,049$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="HP Victus Gaming Laptop">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/HP Victus Gaming Laptop.jpg">
+                                <input type="hidden" name="Description", value="AMD Ryzen 7 5800H Processor, GeForce RTX 3050 Ti, 15.6 FHD 144Hz IPS Display, Webcam,
+                            WiFi 6,
+                            HDMI">
+                                <input type="hidden" name="Price", value="1,049$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Gaming-Laptops/HP 2022 Victus 15.jpg" alt="">
+                        <p>HP 2022 Victus 15</p>
+                        <span>FHD 144Hz Micro-Edge Display, AMD Ryzen 7 5800H(up to 4.4GHz), Nvidia RTX 3050Ti (32GB RAM
+                            |
+                            1TB SSD)</span>
+                        <div class="favorites-container">
+                            <div class="price">969<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="HP 2022 Victus 15">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/HP 2022 Victus 15.jpg">
+                                <input type="hidden" name="Description", value="FHD 144Hz Micro-Edge Display, AMD Ryzen 7 5800H(up to 4.4GHz), Nvidia RTX 3050Ti (32GB RAM
+                            |
+                            1TB SSD)">
+                                <input type="hidden" name="Price", value="969$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="HP 2022 Victus 15">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/HP 2022 Victus 15.jpg">
+                                <input type="hidden" name="Description", value="FHD 144Hz Micro-Edge Display, AMD Ryzen 7 5800H(up to 4.4GHz), Nvidia RTX 3050Ti (32GB RAM
+                            |
+                            1TB SSD)">
+                                <input type="hidden" name="Price", value="969$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Gaming-Laptops/MSI Pulse GL66 .jpg" alt="">
+                        <p>MSI Pulse GL66</p>
+                        <span>FHD 144Hz Gaming Laptop: Intel Core i7-12700H RTX 3070 16GB 512GB NVMe SSD, Type-C USB 3.2
+                            Gen
+                            1, RGB Gaming Keyboard</span>
+                        <div class="favorites-container">
+                            <div class="price">1,232<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="MSI Pulse GL66">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/MSI Pulse GL66 .jpg">
+                                <input type="hidden" name="Description", value="FHD 144Hz Gaming Laptop: Intel Core i7-12700H RTX 3070 16GB 512GB NVMe SSD, Type-C USB 3.2
+                            Gen
+                            1, RGB Gaming Keyboard">
+                                <input type="hidden" name="Price", value="1,232$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="MSI Pulse GL66">
+                                <input type="hidden" name="Image", value="../images/Gaming-Laptops/MSI Pulse GL66 .jpg">
+                                <input type="hidden" name="Description", value="FHD 144Hz Gaming Laptop: Intel Core i7-12700H RTX 3070 16GB 512GB NVMe SSD, Type-C USB 3.2
+                            Gen
+                            1, RGB Gaming Keyboard">
+                                <input type="hidden" name="Price", value="1,232$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </container>
+        <!-- End Gaming Laptops -->
+        <!-- Start Sensors & Detectors -->
+        <container class="card-item" id="sensors" data-filter="Sensors & Detectors">
+            <div id="sensors" class="Headerpara">
+                <p>Sensors & Detectors</p>
+            </div>
+            <div id="sensors" class="sensors cards-parent-tech">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Detectors-and-sensors/Somke Alarm.jpg" alt="">
+                        <p>Google Nest Protect</p>
+                        <span>Smoke Alarm - Smoke Detector and Carbon Monoxide Detector - Wired, White</span>
+                        <div class="favorites-container">
+                            <div class="price">119<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Google Nest Protect">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Somke Alarm.jpg">
+                                <input type="hidden" name="Description", value="Smoke Alarm - Smoke Detector and Carbon Monoxide Detector - Wired, White">
+                                <input type="hidden" name="Price", value="119$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Google Nest Protect">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Somke Alarm.jpg">
+                                <input type="hidden" name="Description", value="Smoke Alarm - Smoke Detector and Carbon Monoxide Detector - Wired, White">
+                                <input type="hidden" name="Price", value="119$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Detectors-and-sensors/Smart Home Energy Monitor.jpg" alt="">
+                        <p>Smart Home Energy Monitor</p>
+                        <span>with 16 50A Circuit Level Sensors | Vue - Real Time Electricity Monitor/Meter.</span>
+                        <div class="favorites-container">
+                            <div class="price">164<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Smart Home Energy Monitor">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Smart Home Energy Monitor.jpg">
+                                <input type="hidden" name="Description", value="with 16 50A Circuit Level Sensors | Vue - Real Time Electricity Monitor/Meter.">
+                                <input type="hidden" name="Price", value="164$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Smart Home Energy Monitor">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Smart Home Energy Monitor.jpg">
+                                <input type="hidden" name="Description", value="with 16 50A Circuit Level Sensors | Vue - Real Time Electricity Monitor/Meter.">
+                                <input type="hidden" name="Price", value="164$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Detectors-and-sensors/Thermostat wifi.jpg" alt="">
+                        <p>Ecobee3 Lite</p>
+                        <span>SmartThermostat, Black.</span>
+                        <div class="favorites-container">
+                            <div class="price">149<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Ecobee3 Lite">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Thermostat wifi.jpg">
+                                <input type="hidden" name="Description", value="SmartThermostat, Black.">
+                                <input type="hidden" name="Price", value="149">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Ecobee3 Lite">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Thermostat wifi.jpg">
+                                <input type="hidden" name="Description", value="SmartThermostat, Black.">
+                                <input type="hidden" name="Price", value="149">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Detectors-and-sensors/Eve Door & Window.jpg" alt="">
+                        <p>Eve Door & Window</p>
+                        <span>Apple HomeKit Smart Home Wireless Contact Sensor for Windows & Doors.</span>
+                        <div class="favorites-container">
+                            <div class="price">97<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Eve Door & Window">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Eve Door & Window.jpg">
+                                <input type="hidden" name="Description", value="Apple HomeKit Smart Home Wireless Contact Sensor for Windows & Doors.">
+                                <input type="hidden" name="Price", value="97">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Eve Door & Window">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Eve Door & Window.jpg">
+                                <input type="hidden" name="Description", value="Apple HomeKit Smart Home Wireless Contact Sensor for Windows & Doors.">
+                                <input type="hidden" name="Price", value="97">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Detectors-and-sensors/Sense Energy Monitor.jpg" alt="">
+                        <p>Sense Energy Monitor</p>
+                        <span>Track Electricity Usage in Real Time and Save Money - Meets Rigourous ETL/Intertek Safety
+                            Standards</span>
+                        <div class="favorites-container">
+                            <div class="price">299<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Sense Energy Monitor">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Sense Energy Monitor.jpg">
+                                <input type="hidden" name="Description", value="Track Electricity Usage in Real Time and Save Money - Meets Rigourous ETL/Intertek Safety
+                            Standards">
+                                <input type="hidden" name="Price", value="299$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Sense Energy Monitor">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Sense Energy Monitor.jpg">
+                                <input type="hidden" name="Description", value="Track Electricity Usage in Real Time and Save Money - Meets Rigourous ETL/Intertek Safety
+                            Standards">
+                                <input type="hidden" name="Price", value="299$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Detectors-and-sensors/YOLINK Smart Home Starter Kit.jpg" alt="">
+                        <p>YOLINK Smart Home Starter Kit</p>
+                        <span>Water Sensor 4-Pack & Hub Kit - Sensor Compatible with Alexa and IFTTT, 1/4 Mile Range,
+                            Instant Remote App</span>
+                        <div class="favorites-container">
+                            <div class="price">64<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="YOLINK Smart Home Starter Kit">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/YOLINK Smart Home Starter Kit.jpg">
+                                <input type="hidden" name="Description", value="Water Sensor 4-Pack & Hub Kit - Sensor Compatible with Alexa and IFTTT, 1/4 Mile Range,
+                            Instant Remote App">
+                                <input type="hidden" name="Price", value="64$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="YOLINK Smart Home Starter Kit">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/YOLINK Smart Home Starter Kit.jpg">
+                                <input type="hidden" name="Description", value="Water Sensor 4-Pack & Hub Kit - Sensor Compatible with Alexa and IFTTT, 1/4 Mile Range,
+                            Instant Remote App">
+                                <input type="hidden" name="Price", value="64$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Detectors-and-sensors/Flume 2 Smart Home Water Monitor & Water Leak Detector.jpg"
+                            alt="">
+                        <p>Flume 2 Smart Home Water Monitor & Water Leak Detector</p>
+                        <span>Detect Water Leaks Before They Cause Damage. Monitor Your Water Use to Reduce Wast & No
+                            Plumbing Required</span>
+                        <div class="favorites-container">
+                            <div class="price">1,089<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Flume 2 Smart Home Water Monitor & Water Leak Detector">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Flume 2 Smart Home Water Monitor & Water Leak Detector.jpg">
+                                <input type="hidden" name="Description", value="Detect Water Leaks Before They Cause Damage. Monitor Your Water Use to Reduce Wast & No
+                            Plumbing Required">
+                                <input type="hidden" name="Price", value="1,089$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Flume 2 Smart Home Water Monitor & Water Leak Detector">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Flume 2 Smart Home Water Monitor & Water Leak Detector.jpg">
+                                <input type="hidden" name="Description", value="Detect Water Leaks Before They Cause Damage. Monitor Your Water Use to Reduce Wast & No
+                            Plumbing Required">
+                                <input type="hidden" name="Price", value="1,089$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Detectors-and-sensors/Fibaro FGBHFS-101 Flood.jpg" alt="">
+                        <p>Fibaro FGBHFS-101 Flood</p>
+                        <span> Water & Temperature Sensor Homekit enabled water leakage detector, white</span>
+                        <div class="favorites-container">
+                            <div class="price">100<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Fibaro FGBHFS-101 Flood">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Fibaro FGBHFS-101 Flood.jpg">
+                                <input type="hidden" name="Description", value=" Water & Temperature Sensor Homekit enabled water leakage detector, white">
+                                <input type="hidden" name="Price", value="100$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Fibaro FGBHFS-101 Flood">
+                                <input type="hidden" name="Image", value="../images/Detectors-and-sensors/Fibaro FGBHFS-101 Flood.jpg">
+                                <input type="hidden" name="Description", value=" Water & Temperature Sensor Homekit enabled water leakage detector, white">
+                                <input type="hidden" name="Price", value="100$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </container>
+        <!-- End Sensors & Detectors -->
+        <!-- Start Monitors -->
+        <container class="card-item" id="pc monitors" data-filter="PC Monitors">
+            <div class="Headerpara">
+                <p>Monitors</p>
+            </div>
+            <div class="monitors cards-parent-tech">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Monitors/Samsung Odessy G5.jpg" alt="">
+                        <p>SAMSUNG Odyssey G5</p>
+                        <span>Series 27-Inch WQHD (2560x1440) Gaming Monitor, 144Hz, Curved, 1ms, HDMI, Display Port,
+                            FreeSync Premium (LC27G55TQWNXZA)</span>
+                        <div class="favorites-container">
+                            <div class="price">200<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="SAMSUNG Odyssey G5">
+                                <input type="hidden" name="Image", value="../images/Monitors/Samsung Odessy G5.jpg">
+                                <input type="hidden" name="Description", value="Series 27-Inch WQHD (2560x1440) Gaming Monitor, 144Hz, Curved, 1ms, HDMI, Display Port,
+                            FreeSync Premium (LC27G55TQWNXZA)">
+                                <input type="hidden" name="Price", value="200">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="SAMSUNG Odyssey G5">
+                                <input type="hidden" name="Image", value="../images/Monitors/Samsung Odessy G5.jpg">
+                                <input type="hidden" name="Description", value="Series 27-Inch WQHD (2560x1440) Gaming Monitor, 144Hz, Curved, 1ms, HDMI, Display Port,
+                            FreeSync Premium (LC27G55TQWNXZA)">
+                                <input type="hidden" name="Price", value="200">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Monitors/GTEK 165Hz 2K.jpg" alt="">
+                        <p>GTEK 165Hz 2K</p>
+                        <span>Gaming Monitor, 27 Inch Frameless Display QHD 2560 x 1440P, Curved 1800R, VA 1ms MPRT,
+                            Supports 144Hz HDR, FreeSync.</span>
+                        <div class="favorites-container">
+                            <div class="price">199<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="GTEK 165Hz 2K">
+                                <input type="hidden" name="Image", value="../images/Monitors/GTEK 165Hz 2K.jpg">
+                                <input type="hidden" name="Description", value="Gaming Monitor, 27 Inch Frameless Display QHD 2560 x 1440P, Curved 1800R, VA 1ms MPRT,
+                            Supports 144Hz HDR, FreeSync.">
+                                <input type="hidden" name="Price", value="199$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="GTEK 165Hz 2K">
+                                <input type="hidden" name="Image", value="../images/Monitors/GTEK 165Hz 2K.jpg">
+                                <input type="hidden" name="Description", value="Gaming Monitor, 27 Inch Frameless Display QHD 2560 x 1440P, Curved 1800R, VA 1ms MPRT,
+                            Supports 144Hz HDR, FreeSync.">
+                                <input type="hidden" name="Price", value="199$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Monitors/GTEK 240Hz.jpg" alt="">
+                        <p>GTEK 240Hz</p>
+                        <span>Gaming Monitor, 27 Inch Frameless Display Full HD 1920 x 1080P, Curved 1800R, VA 1ms MPRT,
+                            VESA - F2740C.</span>
+                        <div class="favorites-container">
+                            <div class="price">239<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="GTEK 240Hz">
+                                <input type="hidden" name="Image", value="../images/Monitors/GTEK 240Hz.jpg">
+                                <input type="hidden" name="Description", value="Gaming Monitor, 27 Inch Frameless Display Full HD 1920 x 1080P, Curved 1800R, VA 1ms MPRT,
+                            VESA - F2740C.">
+                                <input type="hidden" name="Price", value="239$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="GTEK 240Hz">
+                                <input type="hidden" name="Image", value="../images/Monitors/GTEK 240Hz.jpg">
+                                <input type="hidden" name="Description", value="Gaming Monitor, 27 Inch Frameless Display Full HD 1920 x 1080P, Curved 1800R, VA 1ms MPRT,
+                            VESA - F2740C.">
+                                <input type="hidden" name="Price", value="239$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Monitors/Acer Nitro KG241Y.jpg" alt="">
+                        <p>Acer Nitro KG241Y</p>
+                        <span>Full HD (1920 x 1080) VA Gaming Monitor | AMD FreeSync Premium Technology | 165Hz Refresh
+                            Rate
+                            | 1ms (VRB) | ZeroFrame Design.</span>
+                        <div class="favorites-container">
+                            <div class="price">120<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Acer Nitro KG241Y">
+                                <input type="hidden" name="Image", value="../images/Monitors/Acer Nitro KG241Y.jpg">
+                                <input type="hidden" name="Description", value="Full HD (1920 x 1080) VA Gaming Monitor | AMD FreeSync Premium Technology | 165Hz Refresh
+                            Rate
+                            | 1ms (VRB) | ZeroFrame Design.">
+                                <input type="hidden" name="Price", value="120$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Acer Nitro KG241Y">
+                                <input type="hidden" name="Image", value="../images/Monitors/Acer Nitro KG241Y.jpg">
+                                <input type="hidden" name="Description", value="Full HD (1920 x 1080) VA Gaming Monitor | AMD FreeSync Premium Technology | 165Hz Refresh
+                            Rate
+                            | 1ms (VRB) | ZeroFrame Design.">
+                                <input type="hidden" name="Price", value="120$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Monitors/CRUA 27.jpg" alt="">
+                        <p>CRUA 27</p>
+                        <span>144hz/165HZ Curved Gaming Monitor, Full HD 1080P 1800R Frameless Computer Monitor, 1ms
+                            GTG</span>
+                        <div class="favorites-container">
+                            <div class="price">159<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="CRUA 27">
+                                <input type="hidden" name="Image", value="../images/Monitors/CRUA 27.jpg">
+                                <input type="hidden" name="Description", value="144hz/165HZ Curved Gaming Monitor, Full HD 1080P 1800R Frameless Computer Monitor, 1ms
+                            GTG">
+                                <input type="hidden" name="Price", value="159$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="CRUA 27">
+                                <input type="hidden" name="Image", value="../images/Monitors/CRUA 27.jpg">
+                                <input type="hidden" name="Description", value="144hz/165HZ Curved Gaming Monitor, Full HD 1080P 1800R Frameless Computer Monitor, 1ms
+                            GTG">
+                                <input type="hidden" name="Price", value="159$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Monitors/Sceptre 24.jpg" alt="">
+                        <p>Sceptre 24</p>
+                        <span>Curved 75Hz Gaming LED Monitor Full HD 1080P HDMI VGA Speakers, VESA Wall Mount Ready
+                            Metal
+                            Black 2019 </span>
+                        <div class="favorites-container">
+                            <div class="price">107<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Sceptre 24">
+                                <input type="hidden" name="Image", value="../images/Monitors/Sceptre 24.jpg">
+                                <input type="hidden" name="Description", value="Curved 75Hz Gaming LED Monitor Full HD 1080P HDMI VGA Speakers, VESA Wall Mount Ready
+                            Metal
+                            Black 2019">
+                                <input type="hidden" name="Price", value="107$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Sceptre 24">
+                                <input type="hidden" name="Image", value="../images/Monitors/Sceptre 24.jpg">
+                                <input type="hidden" name="Description", value="Curved 75Hz Gaming LED Monitor Full HD 1080P HDMI VGA Speakers, VESA Wall Mount Ready
+                            Metal
+                            Black 2019">
+                                <input type="hidden" name="Price", value="107$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Monitors/Nitro by Acer 27.jpg" alt="">
+                        <p>Nitro by Acer 27r</p>
+                        <span> Full HD 1920 x 1080 1500R Curve PC Gaming Monitor | AMD FreeSync Premium | 165Hz Refresh
+                            |
+                            1ms (VRB)</span>
+                        <div class="favorites-container">
+                            <div class="price">170<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Nitro by Acer 27r">
+                                <input type="hidden" name="Image", value="../images/Monitors/Nitro by Acer 27.jpg">
+                                <input type="hidden" name="Description", value="Full HD 1920 x 1080 1500R Curve PC Gaming Monitor | AMD FreeSync Premium | 165Hz Refresh
+                            |
+                            1ms (VRB)">
+                                <input type="hidden" name="Price", value="170$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Nitro by Acer 27r">
+                                <input type="hidden" name="Image", value="../images/Monitors/Nitro by Acer 27.jpg">
+                                <input type="hidden" name="Description", value="Full HD 1920 x 1080 1500R Curve PC Gaming Monitor | AMD FreeSync Premium | 165Hz Refresh
+                            |
+                            1ms (VRB)">
+                                <input type="hidden" name="Price", value="170$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Monitors/Deco Gear 35.jpg" alt="">
+                        <p>Deco Gear 35</p>
+                        <span>Curved Gaming Ultrawide Monitor, 3440x1440, 120hz, 1ms MPRT, 219, 99% sRGB</span>
+                        <div class="favorites-container">
+                            <div class="price">100<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Deco Gear 35">
+                                <input type="hidden" name="Image", value="../images/Monitors/Deco Gear 35.jpg">
+                                <input type="hidden" name="Description", value="Curved Gaming Ultrawide Monitor, 3440x1440, 120hz, 1ms MPRT, 219, 99% sRGB">
+                                <input type="hidden" name="Price", value="100$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Deco Gear 35">
+                                <input type="hidden" name="Image", value="../images/Monitors/Deco Gear 35.jpg">
+                                <input type="hidden" name="Description", value="Curved Gaming Ultrawide Monitor, 3440x1440, 120hz, 1ms MPRT, 219, 99% sRGB">
+                                <input type="hidden" name="Price", value="100$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </container>
+        <!-- End Monitors -->
+        <!-- Start Security Cams -->
+        <container class="card-item" id="sec" data-filter="Security Cameras">
+            <div class="Headerpara">
+                <p>Security Cameras</p>
+            </div>
+            <div class="security cards-parent-tech">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Security-Cameras/Blink Outdoor.jpg" alt="">
+                        <p>Blink Outdoor</p>
+                        <span>wireless, weather-resistant HD security camera, two-year battery life, motion
+                            detection</span>
+                        <div class="favorites-container">
+                            <div class="price">40<span>$</span></div>
+                            
+                            
+                                <input type="hidden" name="Name", value="Blink Outdoor">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Blink Outdoor.jpg">
+                                <input type="hidden" name="Description", value="wireless, weather-resistant HD security camera, two-year battery life, motion
+                            detection">
+                                <input type="hidden" name="Price", value="40$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            
+                                <input type="hidden" name="Name", value="Blink Outdoor">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Blink Outdoor.jpg">
+                                <input type="hidden" name="Description", value="wireless, weather-resistant HD security camera, two-year battery life, motion
+                            detection">
+                                <input type="hidden" name="Price", value="40$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Security-Cameras/Google indoor.jpg" alt="">
+                        <p>Google indoor</p>
+                        <span>Nest Security Cam 1080p (Wired) - 2nd Generation - Snow.</span>
+                        <div class="favorites-container">
+                            <div class="price">96<span>$</span></div>
+                                <input type="hidden" name="Name", value="Google indoor">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Google indoor.jpg">
+                                <input type="hidden" name="Description", value="Nest Security Cam 1080p (Wired) - 2nd Generation - Snow.">
+                                <input type="hidden" name="Price", value="96$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Google indoor">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Google indoor.jpg">
+                                <input type="hidden" name="Description", value="Nest Security Cam 1080p (Wired) - 2nd Generation - Snow.">
+                                <input type="hidden" name="Price", value="96$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Security-Cameras/Blink Mini .jpg" alt="">
+                        <p>Blink Mini </p>
+                        <span>Compact indoor plug-in smart security camera, 1080p HD video, night vision, motion
+                            detection,
+                            two-way audio.</span>
+                        <div class="favorites-container">
+                            <div class="price">100<span>$</span></div>
+                                <input type="hidden" name="Name", value="Blink Mini">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Blink Mini .jpg">
+                                <input type="hidden" name="Description", value="Compact indoor plug-in smart security camera, 1080p HD video, night vision, motion
+                            detection,
+                            two-way audio.">
+                                <input type="hidden" name="Price", value="100$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Blink Mini">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Blink Mini .jpg">
+                                <input type="hidden" name="Description", value="Compact indoor plug-in smart security camera, 1080p HD video, night vision, motion
+                            detection,
+                            two-way audio.">
+                                <input type="hidden" name="Price", value="100$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Security-Cameras/Google Nest Cam Outdoor.jpg" alt="">
+                        <p>Google Nest Cam Outdoor</p>
+                        <span>1st Generation - Weatherproof Outdoor Camera - Surveillance Camera with Night Vision
+                            .</span>
+                        <div class="favorites-container">
+                            <div class="price">380<span>$</span></div>
+                                <input type="hidden" name="Name", value="Google Nest Cam Outdoor">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Google Nest Cam Outdoor.jpg">
+                                <input type="hidden" name="Description", value="1st Generation - Weatherproof Outdoor Camera - Surveillance Camera with Night Vision
+                            .">
+                                <input type="hidden" name="Price", value="380$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Google Nest Cam Outdoor">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Google Nest Cam Outdoor.jpg">
+                                <input type="hidden" name="Description", value="1st Generation - Weatherproof Outdoor Camera - Surveillance Camera with Night Vision
+                            .">
+                                <input type="hidden" name="Price", value="380$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Security-Cameras/Ring Floodlight.jpg" alt="">
+                        <p>Ring Floodlight</p>
+                        <span>Cam Wired Plus with motion-activated 1080p HD video, White (2021 release)</span>
+                        <div class="favorites-container">
+                            <div class="price">300<span>$</span></div>
+                                <input type="hidden" name="Name", value="Ring Floodlight">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Ring Floodlight.jpg">
+                                <input type="hidden" name="Description", value="Cam Wired Plus with motion-activated 1080p HD video, White (2021 release)">
+                                <input type="hidden" name="Price", value="300$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Ring Floodlight">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Ring Floodlight.jpg">
+                                <input type="hidden" name="Description", value="Cam Wired Plus with motion-activated 1080p HD video, White (2021 release)">
+                                <input type="hidden" name="Price", value="300$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images//Security-Cameras/Google-nest-cam.jpg" alt="">
+                        <p>Google Nest Cam with Floodlight</p>
+                        <span>Outdoor Camera - Floodlight Security Camera</span>
+                        <div class="favorites-container">
+                            <div class="price">40<span>$</span></div>
+                                <input type="hidden" name="Name", value="Google Nest Cam with Floodlight">
+                                <input type="hidden" name="Image", value="../images//Security-Cameras/Google-nest-cam.jpg">
+                                <input type="hidden" name="Description", value="Outdoor Camera - Floodlight Security Camera">
+                                <input type="hidden" name="Price", value="40$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Google Nest Cam with Floodlight">
+                                <input type="hidden" name="Image", value="../images//Security-Cameras/Google-nest-cam.jpg">
+                                <input type="hidden" name="Description", value="Outdoor Camera - Floodlight Security Camera">
+                                <input type="hidden" name="Price", value="40$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Security-Cameras/Feit-Electric-outdoor-cam.jpg" alt="">
+                        <p>NETVUE Outdoor Security Camera</p>
+                        <span>Outdoor Camera - Floodlight Security Camera</span>
+                        <div class="favorites-container">
+                            <div class="price">170<span>$</span></div>
+                                <input type="hidden" name="Name", value="NETVUE Outdoor Security Camera">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Feit-Electric-outdoor-cam.jpg">
+                                <input type="hidden" name="Description", value="Outdoor Camera - Floodlight Security Camera">
+                                <input type="hidden" name="Price", value="170$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="NETVUE Outdoor Security Camera">
+                                <input type="hidden" name="Image", value="../images/Security-Cameras/Feit-Electric-outdoor-cam.jpg">
+                                <input type="hidden" name="Description", value="Outdoor Camera - Floodlight Security Camera">
+                                <input type="hidden" name="Price", value="170$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </container>
+        <!-- End Security Cams -->
+        <!-- Start Head Phones -->
+        <container class="card-item" id="head" data-filter="Head Phones">
+            <div class="Headerpara">
+                <p>Head Phones </p>
+            </div>
+            <div class="headph cards-parent-tech">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Headphones/Beats Studio3.jpg" alt="">
+                        <p>Beats Studio3</p>
+                        <span>Wireless Noise Cancelling Over-Ear Headphones - Apple W1 Headphone Chip, Class 1
+                            Bluetooth</span>
+                        <div class="favorites-container">
+                            <div class="price">156<span>$</span></div>
+                                <input type="hidden" name="Name", value="Beats Studio3">
+                                <input type="hidden" name="Image", value="../images/Headphones/Beats Studio3.jpg">
+                                <input type="hidden" name="Description", value="Wireless Noise Cancelling Over-Ear Headphones - Apple W1 Headphone Chip, Class 1
+                            Bluetooth">
+                                <input type="hidden" name="Price", value="156$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Beats Studio3">
+                                <input type="hidden" name="Image", value="../images/Headphones/Beats Studio3.jpg">
+                                <input type="hidden" name="Description", value="Wireless Noise Cancelling Over-Ear Headphones - Apple W1 Headphone Chip, Class 1
+                            Bluetooth">
+                                <input type="hidden" name="Price", value="156$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Headphones/Wireless Earbuds Sports.jpg" alt="">
+                        <p>Wireless Earbuds Sports</p>
+                        <span>Bluetooth Headphones 4 Mic Noise Cancelling Earbuds 60H Playtime Dual LED Power Display
+                            Flexible Earhooks Clear Calls Earphones IPX7.</span>
+                        <div class="favorites-container">
+                            <div class="price">50<span>$</span></div>
+                                <input type="hidden" name="Name", value="Wireless Earbuds Sports">
+                                <input type="hidden" name="Image", value="../images/Headphones/Wireless Earbuds Sports.jpg">
+                                <input type="hidden" name="Description", value="Bluetooth Headphones 4 Mic Noise Cancelling Earbuds 60H Playtime Dual LED Power Display
+                            Flexible Earhooks Clear Calls Earphones IPX7.">
+                                <input type="hidden" name="Price", value="50$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Wireless Earbuds Sports">
+                                <input type="hidden" name="Image", value="../images/Headphones/Wireless Earbuds Sports.jpg">
+                                <input type="hidden" name="Description", value="Bluetooth Headphones 4 Mic Noise Cancelling Earbuds 60H Playtime Dual LED Power Display
+                            Flexible Earhooks Clear Calls Earphones IPX7.">
+                                <input type="hidden" name="Price", value="50$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Headphones/Bluetooth Headphones Over Ear.jpg" alt="">
+                        <p>Bluetooth Headphones Over Ear</p>
+                        <span>BERIBES 65H Playtime and 6 EQ Music Modes Wireless Headphones ,HiFi Stereo Foldable
+                            Lightweight Headset.</span>
+                        <div class="favorites-container">
+                            <div class="price">27<span>$</span></div>
+                                <input type="hidden" name="Name", value="Bluetooth Headphones Over Ear">
+                                <input type="hidden" name="Image", value="../images/Headphones/Bluetooth Headphones Over Ear.jpg">
+                                <input type="hidden" name="Description", value="BERIBES 65H Playtime and 6 EQ Music Modes Wireless Headphones ,HiFi Stereo Foldable
+                            Lightweight Headset.">
+                                <input type="hidden" name="Price", value="27$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Bluetooth Headphones Over Ear">
+                                <input type="hidden" name="Image", value="../images/Headphones/Bluetooth Headphones Over Ear.jpg">
+                                <input type="hidden" name="Description", value="BERIBES 65H Playtime and 6 EQ Music Modes Wireless Headphones ,HiFi Stereo Foldable
+                            Lightweight Headset.">
+                                <input type="hidden" name="Price", value="27$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Headphones/Wireless Headphones.jpg" alt="">
+                        <p>Wireless Headphones</p>
+                        <span>5.2 Wireless Headphones with Charging Case,IPX8 Waterproof, Built-in Microphone,Bluetooth
+                            Headphones.</span>
+                        <div class="favorites-container">
+                            <div class="price">16<span>$</span></div>
+                                <input type="hidden" name="Name", value="Wireless Headphones">
+                                <input type="hidden" name="Image", value="../images/Headphones/Wireless Headphones.jpg">
+                                <input type="hidden" name="Description", value="5.2 Wireless Headphones with Charging Case,IPX8 Waterproof, Built-in Microphone,Bluetooth
+                            Headphones.">
+                                <input type="hidden" name="Price", value="16$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Wireless Headphones">
+                                <input type="hidden" name="Image", value="../images/Headphones/Wireless Headphones.jpg">
+                                <input type="hidden" name="Description", value="5.2 Wireless Headphones with Charging Case,IPX8 Waterproof, Built-in Microphone,Bluetooth
+                            Headphones.">
+                                <input type="hidden" name="Price", value="16$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Headphones/sodo wireless.jpg" alt="">
+                        <p>Sodo Noise Cancelling Headphones</p>
+                        <span>700,Bluetooth, Over-Ear Wireless with Built-In Microphone for Clear Calls & Alexa Voice
+                            Control,Black</span>
+                        <div class="favorites-container">
+                            <div class="price">240<span>$</span></div>
+                                <input type="hidden" name="Name", value="Sodo Noise Cancelling Headphones">
+                                <input type="hidden" name="Image", value="../images/Headphones/sodo wireless.jpg">
+                                <input type="hidden" name="Description", value="700,Bluetooth, Over-Ear Wireless with Built-In Microphone for Clear Calls & Alexa Voice
+                            Control,Black">
+                                <input type="hidden" name="Price", value="240$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Sodo Noise Cancelling Headphones">
+                                <input type="hidden" name="Image", value="../images/Headphones/sodo wireless.jpg">
+                                <input type="hidden" name="Description", value="700,Bluetooth, Over-Ear Wireless with Built-In Microphone for Clear Calls & Alexa Voice
+                            Control,Black">
+                                <input type="hidden" name="Price", value="240$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Headphones/Uliptz Wireless Bluetooth.jpg" alt="">
+                        <p>Uliptz Wireless Bluetooth</p>
+                        <span>Headphones, 65H Playtime, 6 EQ Sound Modes, HiFi Stereo Over Ear</span>
+                        <div class="favorites-container">
+                            <div class="price">27<span>$</span></div>
+                                <input type="hidden" name="Name", value="Uliptz Wireless Bluetooth">
+                                <input type="hidden" name="Image", value="../images/Headphones/Uliptz Wireless Bluetooth.jpg">
+                                <input type="hidden" name="Description", value="Headphones, 65H Playtime, 6 EQ Sound Modes, HiFi Stereo Over Ear">
+                                <input type="hidden" name="Price", value="27$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Uliptz Wireless Bluetooth">
+                                <input type="hidden" name="Image", value="../images/Headphones/Uliptz Wireless Bluetooth.jpg">
+                                <input type="hidden" name="Description", value="Headphones, 65H Playtime, 6 EQ Sound Modes, HiFi Stereo Over Ear">
+                                <input type="hidden" name="Price", value="27$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Headphones/PHILIPS H8506.jpg" alt="">
+                        <p>PHILIPS H8506</p>
+                        <span>Over-Ear Wireless Headphones with Noise Canceling Pro (ANC)
+                            Connection</span>
+                        <div class="favorites-container">
+                            <div class="price">150<span>$</span></div>
+                                <input type="hidden" name="Name", value="PHILIPS H8506">
+                                <input type="hidden" name="Image", value="../images/Headphones/PHILIPS H8506.jpg">
+                                <input type="hidden" name="Description", value="Over-Ear Wireless Headphones with Noise Canceling Pro (ANC)
+                            Connection">
+                                <input type="hidden" name="Price", value="150$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="PHILIPS H8506">
+                                <input type="hidden" name="Image", value="../images/Headphones/PHILIPS H8506.jpg">
+                                <input type="hidden" name="Description", value="Over-Ear Wireless Headphones with Noise Canceling Pro (ANC)
+                            Connection">
+                                <input type="hidden" name="Price", value="150$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../images/Headphones/apples airpods.jpg" alt="">
+                        <p>Apple airpods</p>
+                        <span>Apple Airpods In-Ear Bluetooth Wireless Headset (Renewed)</span>
+                        <div class="favorites-container">
+                            <div class="price">105<span>$</span></div>
+                                <input type="hidden" name="Name", value="Apple airpods">
+                                <input type="hidden" name="Image", value="../images/Headphones/apples airpods.jpg">
+                                <input type="hidden" name="Description", value="Apple Airpods In-Ear Bluetooth Wireless Headset (Renewed)">
+                                <input type="hidden" name="Price", value="105$">
+                                <button type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                <input type="hidden" name="Name", value="Apple airpods">
+                                <input type="hidden" name="Image", value="../images/Headphones/apples airpods.jpg">
+                                <input type="hidden" name="Description", value="Apple Airpods In-Ear Bluetooth Wireless Headset (Renewed)">
+                                <input type="hidden" name="Price", value="105$">
+                                <button type="submit"><i class="fa fa-heart-o" aria-hidden="true" id="heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </container>
+        <!-- End Head Phones -->
+    </div>
+    <!-- End Products -->
+    <!-- Start Services -->
+    <div id="services" class="services">
+        <div class="video">
+            <video autoplay muted loop>
+                <source src="../E-commerce-Video/Welcome - Google Chrome 2023-04-07 05-17-51.mp4" type="video/mp4">
+            </video>
+            <div class="text">
+                <p class="first-para">You are free to order infinity orders at the same time from TECH</p>
+                <p>Here all you need for you smart home</p>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Contact -->
+    <div id="contact" class="contact">
+        <div class="contact-parent">
+            <p class="first-para">TECH</p>
+            <div class="contact-container">
+                <p>For further discussions contact us</p>
+                <div class="contact-emails">
+                    <div class="email-container">
+                        <img src="../Emails/me.jpg" alt="">
+                        <span>Amr Yasser</span>
+                        <p>amr_y01206@cic-cairo.com</p>
+                    </div>
+                    <div class="email-container">
+                        <img src="../Emails/Martin.jpg" alt="">
+                        <span>Martin Ashraf</span>
+                        <p>martin_a00280@cic-cairo.com</p>
+                    </div>
+                    <div class="email-container">
+                        <img src="../Emails/Omar.jpg" alt="">
+                        <span>Omar Yasser</span>
+                        <p>omar_y00795@cic-cairo.com</p>
+                    </div>
+                    <div class="email-container">
+                        <img src="../Emails/Ziad.jpg" alt="">
+                        <span>Ziad Ashraf</span>
+                        <p>Zyad_a00139@cic-cairo.com</p>
+                    </div>
+                    <div class="email-container">
+                        <img src="../Emails/Hamed.jpg" alt="">
+                        <span>Ahmed Hamed</span>
+                        <p>ahmed_m01131@cic-cairo.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="social-media">
+        <div class="social-media-container">
+            <p>Find us in social media through :</p>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-github" aria-hidden="true"></i>
+        </div>
+    </div>
+    </div>
+    <!-- End Contact -->
+    <script src="../js/Home(Login).js"></script>
+</body>
+
+</html>

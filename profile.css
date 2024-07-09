@@ -1,0 +1,338 @@
+@font-face {
+    font-family:allerta;
+    src:url(./Fonts/Allerta_Stencil/AllertaStencil-Regular.ttf);
+}
+@font-face {
+    font-family:roboto;
+    src:url(./Fonts/Roboto-font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:roboto-light;
+    src:url(./Fonts/Roboto-font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:roboto-bold;
+    src:url(./Fonts/Roboto-font/Roboto-Bold.ttf);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: open-sans, sans-serif;
+    display:flex;
+    flex-direction:column;
+    background-color: #aaaa;
+}
+ul {
+    list-style: none;
+}
+/* Start Header */
+header {
+    position:fixed;
+    height:100px;
+    left: 0;
+    width: 100%;
+    background: #ffff;
+    z-index:3;
+    transition:0.5s ease-in-out;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    height: 100px;
+    width:100%;
+    flex-direction: row;
+    margin: 0 auto;
+    transition: 0.5 ease-in-out;
+}
+header .container .nav-container {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    transition: 0.5 ease-in-out;
+    margin-right:25px;
+}
+header .container .expanded-search {
+    width:355px;
+    height:65px;
+    border-radius:29px;
+    box-shadow:2px 2px 3px #aaa;
+    padding:5px;
+    background:#ffff;
+    cursor:pointer;
+    position:absolute;
+    right:445px;
+    top:20px;
+    transition:0.5 ease-in-out;
+}
+header .container .expanded-search input {
+    width:300px;
+    border-radius:25px;
+    padding:20px;
+    font-family:roboto-light;
+    background:#ffff;
+    border:none;
+    margin-left:10px;
+    transition:0.5 ease-in-out;
+}
+header .container .expanded-search i {
+    font-size:19px;
+    margin-left:10px;
+}
+header .container .expanded-search-logout {
+    width:355px;
+    height:65px;
+    border-radius:29px;
+    box-shadow:2px 2px 5px #aaa;
+    padding:5px;
+    background:#ffff;
+    cursor:pointer;
+    position:absolute;
+    right:515px;
+    top:20px;
+    transition:0.5 ease-in-out;
+}
+header .container .expanded-search-logout input {
+    width:300px;
+    border-radius:25px;
+    padding:20px;
+    font-family:roboto-light;
+    background:#ffff;
+    border:none;
+    margin-left:10px;
+    transition:0.5 ease-in-out;
+}
+header .container .expanded-search-logout i {
+    font-size:19px;
+    margin-left:10px;
+}
+header .container .search-container {
+    position:relative;
+    width:50px;
+    height:50px;
+    background:#ffff;
+    border-radius:50%;
+    box-shadow:2px 2px 5px #aaa;
+    cursor:pointer;
+    transition:0.5 ease-in-out;
+    margin-right: 20px;
+}
+header .container .search-container input {
+    width:300px;
+    border-radius:25px;
+    padding:20px;
+    font-family:roboto-light;
+    background:#eee;
+    border:none;
+    margin-left:10px;
+    display:none;
+    transition:0.5 ease-in-out;
+}
+header .container nav .log-out a:hover {
+    color:black
+}
+header .container nav .cart a:hover {
+    color:black;
+}
+header .container nav ul li a:hover {
+    color:black;
+    transition:0.5s ease-in-out;
+}
+header .container .search-container i {
+    font-size:19px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+header .container .logo {
+    font-family:allerta;
+    font-size:40px;
+    color:black;
+    transition:0.5 ease-in-out;
+    margin-left:25px;
+}
+header .container nav ul {
+    display:flex;
+    flex-direction:row;
+}
+header .container nav ul li {
+    padding: 15px;
+}
+header .container nav ul li a {
+    text-decoration: none;
+    color:#aaa;
+    transition:0.5 ease-in-out;
+    padding:5px;
+    padding-bottom:41px;
+}
+header .container nav ul li .active {
+    border-bottom: 3px solid black;
+    color:black;
+}
+header .container nav .cart li div {
+    padding-bottom:57px;
+    width:89.55px;
+    height:50.8px;
+    text-align: center;
+    margin-top:45px;
+}
+header .container nav .cart {
+    cursor:pointer;
+}
+header .container nav .cart a {
+    text-decoration:none;
+    transition:0.5 ease-in-out;
+}
+header .container nav .cart i {
+    text-decoration:none;
+    color:#aaa;
+}
+header .container nav .log-out  {
+    margin-left:10px;
+    cursor:pointer;
+    align-items:center;
+}
+header .container nav .log-out a {
+    color:black;
+    font-family:roboto-bold;
+    text-decoration:none;
+    transition:0.5 ease-in-out;
+}
+header .container nav .log-out i {
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+    margin-left:8px;
+}
+/* End Header */
+/* Start Profile info */
+.profile-container {
+    width:1300px;
+    height:840px;
+    margin-top:170px;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    background-color: #ffff;
+    box-shadow:2px 2px 10px black;
+}
+.profile-container .container {
+    background: linear-gradient(to left, #f54895, #0c1826);
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    height:300px;
+    padding:0px;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+}
+.profile-container .container .img-container {
+    border-radius:10px;
+    width:100%;
+    height:200px;
+    margin-top:180px;
+    background:#0000;
+}
+.profile-container .container .img-container img {
+    width:200px;
+    height:200px;
+    margin-left:550px;
+    margin-right:auto;
+    border-radius:50%;
+    box-shadow:2px 2px 10px black;
+}
+.container .location {
+    margin-left:15px;
+    position:absolute;
+    top:310px;
+    left:225px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container .username-container {
+    margin-top:30px;
+    width:100%;
+    text-align: center;
+}
+.container .username-container .username {
+    font-size:30px;
+    font-family:roboto;
+}
+.container .logo-container {
+    position:absolute;
+    left:100px;
+    top:115px;
+}
+.container .logo-container p {
+    color:#aaa;
+    font-size:32px;
+    font-family:allerta;
+}
+.location-email-container {
+    font-family: roboto-light;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 550px;
+    top: 650px;
+}
+.location-email-container p {
+    margin-left:10px;
+}
+.location-email-container i {
+    margin-left:17px;
+}
+.buttons-container {
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    left:600px;
+    top:810px;
+}
+.buttons-container a {
+    text-decoration:none;
+    margin-left:12px;
+    margin-top:100px;
+}
+.buttons-container a button {
+    padding:15px;
+    background:#0c1826;
+    color:#ffff;
+    font-size: 15px;
+    font-family:roboto;
+    cursor:pointer;
+    border-radius:10px;
+    transition:0.3s ease-in-out;
+    border: 0px solid transparent;
+}
+.buttons-container a button:hover {
+    box-shadow:2px 2px 20px black;
+}
+.paragraph-container {
+    width:790px;
+    position:absolute;
+    top:730px;
+    left:360px;
+    text-align: center;
+}
+/* End Profile info */

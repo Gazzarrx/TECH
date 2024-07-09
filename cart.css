@@ -1,0 +1,279 @@
+@font-face {
+    font-family:allerta;
+    src:url(./Fonts/Allerta_Stencil/AllertaStencil-Regular.ttf);
+}
+@font-face {
+    font-family:roboto;
+    src:url(./Fonts/Roboto-font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:roboto-light;
+    src:url(./Fonts/Roboto-font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:roboto-bold;
+    src:url(./Fonts/Roboto-font/Roboto-Bold.ttf);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: open-sans, sans-serif;
+    display:flex;
+    flex-direction:column;
+}
+ul {
+    list-style: none;
+}
+/* Start Header */
+header {
+    position:relative;
+    height:100px;
+    left: 0;
+    width: 100%;
+    background: #ffff;
+    z-index:3;
+    transition:0.5s ease-in-out;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    height: 100px;
+    width:100%;
+    flex-direction: row;
+    margin: 0 auto;
+    transition: 0.5 ease-in-out;
+}
+header .container .nav-container {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    transition: 0.5 ease-in-out;
+    margin-right:25px;
+}
+header .container .expanded-search {
+    width:355px;
+    height:65px;
+    border-radius:29px;
+    box-shadow:2px 2px 3px #aaa;
+    padding:5px;
+    background:#ffff;
+    cursor:pointer;
+    position:absolute;
+    right:445px;
+    top:20px;
+    transition:0.5 ease-in-out;
+}
+header .container .expanded-search input {
+    width:300px;
+    border-radius:25px;
+    padding:20px;
+    font-family:roboto-light;
+    background:#ffff;
+    border:none;
+    margin-left:10px;
+    transition:0.5 ease-in-out;
+}
+header .container .expanded-search i {
+    font-size:19px;
+    margin-left:10px;
+}
+header .container .expanded-search-logout {
+    width:355px;
+    height:65px;
+    border-radius:29px;
+    box-shadow:2px 2px 5px #aaa;
+    padding:5px;
+    background:#ffff;
+    cursor:pointer;
+    position:absolute;
+    right:515px;
+    top:20px;
+    transition:0.5 ease-in-out;
+}
+header .container .expanded-search-logout input {
+    width:300px;
+    border-radius:25px;
+    padding:20px;
+    font-family:roboto-light;
+    background:#ffff;
+    border:none;
+    margin-left:10px;
+    transition:0.5 ease-in-out;
+}
+header .container .expanded-search-logout i {
+    font-size:19px;
+    margin-left:10px;
+}
+header .container .search-container {
+    position:relative;
+    width:50px;
+    height:50px;
+    background:#ffff;
+    border-radius:50%;
+    box-shadow:2px 2px 5px #aaa;
+    cursor:pointer;
+    transition:0.5 ease-in-out;
+    margin-right: 20px;
+}
+header .container .search-container input {
+    width:300px;
+    border-radius:25px;
+    padding:20px;
+    font-family:roboto-light;
+    background:#eee;
+    border:none;
+    margin-left:10px;
+    display:none;
+    transition:0.5 ease-in-out;
+}
+header .container .search-container i {
+    font-size:19px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+header .container .logo {
+    font-family:allerta;
+    font-size:40px;
+    color:black;
+    transition:0.5 ease-in-out;
+    margin-left:25px;
+}
+header .container nav ul {
+    display:flex;
+    flex-direction:row;
+}
+header .container nav ul li {
+    padding: 15px;
+}
+header .container nav ul li a {
+    text-decoration: none;
+    color:#aaa;
+    transition:0.5 ease-in-out;
+    padding:5px;
+    padding-bottom:42px;
+}
+header .container nav .cart li div {
+    border-bottom: 3px solid black;
+    padding-bottom:57px;
+    width:89.55px;
+    height:50.8px;
+    text-align: center;
+    margin-top:46px;
+}
+header .container nav .cart {
+    cursor:pointer;
+}
+header .container nav .cart .active a {
+    transition:0.5 ease-in-out;
+    text-decoration:none;
+    padding:5px;
+    color:black;
+}
+header .container nav .cart i {
+    text-decoration:none;
+    color:black;
+}
+header .container nav .log-out a:hover {
+    color:black
+}
+header .container nav .cart a:hover {
+    color:black;
+}
+header .container nav ul li a:hover {
+    color:black;
+    transition:0.5s ease-in-out;
+}
+header .container nav .log-out  {
+    cursor:pointer;
+    align-items:center;
+    margin-left: 10px;
+}
+header .container nav .log-out a {
+    color:black;
+    font-family:roboto-bold;
+    text-decoration:none;
+    transition:0.5 ease-in-out;
+}
+header .container nav .log-out i {
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+    margin-left:8px;
+}
+/* End Header */
+/* Start cart */
+.cart-container {
+    margin-top:110px;
+    margin-bottom:50px;
+}
+.cart-container .cart-child {
+    padding:20px;
+    text-align:center;
+    width:350px;
+    margin:0 auto;
+    padding:0 auto;
+    border-bottom:4px solid black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cart-container  .cart-child p {
+    color:black;
+    font-size:35px;
+    font-family:allerta;
+    width:300px;
+    margin-left:-20px;
+}
+.cart-container  .cart-child i {
+    text-decoration:none;
+    font-size:35px;
+    color:black;
+    margin-right:-70px;
+    margin-left:100px;
+}
+/* Start Tech in cart */
+.cart-container .tech-container {
+    margin: 20px auto;
+    display:grid;
+    grid-template-columns: repeat(4, 340px);
+    justify-content: space-between;
+    background:white;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding-left:80px;
+}
+.cart-container .tech-container div {
+    margin: 0 auto;
+    width: 350px;
+    height: 500px;
+    padding: 10px;
+    margin-bottom: 100px;
+    box-shadow: -2px 2px 70px #aaa;
+}
+.cart-container .tech-container div .card {
+    width: 300px;
+    background-image: url();
+    align-items: center;
+    text-align: center;
+}
+/* End Tech in cart */
+/* end cart */

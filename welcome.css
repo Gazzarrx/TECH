@@ -1,0 +1,168 @@
+@font-face {
+    font-family:allerta;
+    src:url(./Fonts/Allerta_Stencil/AllertaStencil-Regular.ttf);
+}
+@font-face {
+    font-family:roboto;
+    src:url(./Fonts/Roboto-font/Roboto-Medium.ttf);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+    list-style: none;
+}
+
+/* Start Header */
+
+header {
+    position: absolute;
+    left: 0;
+    height:100px;
+    width: 100%;
+    z-index: 2;
+    background:transparent;
+}
+header .container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width:100%;
+    flex-direction: row;
+    margin: 0 auto;
+}
+header .container .nav-container {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    font-family:roboto;
+    margin-right:50px;
+}
+header .container .logo {
+    font-family:allerta;
+    font-size:45px;
+    color:#ffff;
+    margin-left:25px;
+}
+header .container nav ul {
+    display:flex;
+    flex-direction:row;
+}
+header .container nav ul li a {
+    text-decoration: none;
+    margin-left:25px;
+    color:#aaa;
+    padding:5;
+    padding-bottom:30px;
+}
+header .container nav ul li .active {
+    border-bottom: 3px solid #aaa;
+}
+header .container nav .cart {
+    margin-left:50px;
+    cursor:pointer;
+}
+header .container nav .cart a {
+    text-decoration:none;
+    color:#aaa;
+}
+header .container nav .cart i {
+    text-decoration:none;
+    color:#aaa;
+    margin-right:10px;
+}
+
+/* End Header */
+/* Start Landing */
+.landing {
+    background-image: url("../images/ash-edmonds-SHCViKw3edE-unsplash.jpg");
+    background-size:100%;
+    background-position:center;
+    width:100%;
+    height:745px;
+}
+.landing .content-container {
+    margin-top:250px;
+    margin-left:120px;
+    font-family:roboto;
+}
+.landing .first {
+    font-size:45px;
+    width:400px;
+    color:#ffff;
+    margin-bottom:40px;
+}
+.landing .second,
+.landing .third {
+    font-family:roboto;
+    font-size:15px;
+    width:500px;
+    color:#ffff;
+}
+.landing .third a{
+    color:#ffff;
+    margin-left:5px;
+    text-decoration: underline;
+}
+.landing a {
+    text-decoration:none;
+}
+.landing a .button {
+    text-decoration:none;
+    color:#ffff;
+    font-family:roboto;
+    font-size: 17px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    border:2px solid #ffff;
+    border-radius:9px;
+    width:150px;
+    height: auto;
+    padding:13px;
+    text-align:center;
+    cursor: pointer;
+    transition:0.5s ease-in-out;
+}
+.landing a .button:hover{
+    background: linear-gradient(to right,#c20087, #01f2d1);
+    border:none;
+    color:black;
+}
+.links-container {
+    position:relative;
+}
+.links-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position:absolute;
+    top:100px;
+    left:1350px;
+}
+.links-container ul li a {
+    color:#ffff;
+    margin-right:20px;
+    font-size:25px;
+}
+/* End Landing */
